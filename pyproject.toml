@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "pigstep"
+version = "0.0.0"
+description = "A beet plugin for importing songs into Minecraft"
+authors = ["Valentin Berlier <berlier.v@gmail.com>"]
+license = "MIT"
+
+homepage = "https://github.com/vberlier/pigstep"
+repository = "https://github.com/vberlier/pigstep"
+documentation = "https://github.com/vberlier/pigstep"
+
+readme = "README.md"
+
+keywords = [
+  "beet",
+  "minecraft",
+  "note-block-studio"
+]
+
+include = ["pigstep/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pynbs = "^0.4.2"
+beet = "^0.18.0"
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+isort = "^5.8.0"
+rope = "^0.18.0"
+python-semantic-release = "^7.15.1"
+pytest = "^6.2.2"
+pytest-insta = "^0.1.7"
+lectern = "^0.9.2"
+
+[tool.black]
+target-version = ["py38"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | node_modules
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+
+[tool.semantic_release]
+branch = "main"
+version_variable = ["pigstep/__init__.py:__version__"]
+version_toml = "pyproject.toml:tool.poetry.version"
+major_on_zero = false
+build_command = "poetry build"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

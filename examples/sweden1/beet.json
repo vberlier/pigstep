@@ -1,0 +1,8 @@
+{
+  "pipeline": ["pigstep"],
+  "meta": {
+    "pigstep": {
+      "load": ["*.nbs"]
+    }
+  }
+}
