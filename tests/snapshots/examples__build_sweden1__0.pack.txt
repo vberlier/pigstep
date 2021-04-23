@@ -1,0 +1,552 @@
+@data_pack pack.mcmeta
+{
+  "pack": {
+    "pack_format": 6,
+    "description": ""
+  }
+}
+
+@function sweden1:song/sweden/play
+tag @s add sweden1.song.sweden.play
+scoreboard players add @s 6ceqaqqknay21 1
+scoreboard players remove @s 6ceqaqqknay21 1
+
+@function sweden1:song/sweden/pause
+tag @s remove sweden1.song.sweden.play
+
+@function sweden1:song/sweden/stop
+tag @s remove sweden1.song.sweden.play
+scoreboard players reset @s 6ceqaqqknay21
+
+@function sweden1:song/sweden/tick
+execute as @a[tag=sweden1.song.sweden.play] at @s run function sweden1:song/sweden/note
+
+
+@function sweden1:song/sweden/note/0_192
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..12 }] run function sweden1:song/sweden/note/0_12
+                execute if entity @s[scores={ 6ceqaqqknay21 = 24..36 }] run function sweden1:song/sweden/note/24_36
+                execute if entity @s[scores={ 6ceqaqqknay21 = 48..60 }] run function sweden1:song/sweden/note/48_60
+                execute if entity @s[scores={ 6ceqaqqknay21 = 72..96 }] run function sweden1:song/sweden/note/72_96
+                execute if entity @s[scores={ 6ceqaqqknay21 = 108..120 }] run function sweden1:song/sweden/note/108_120
+                execute if entity @s[scores={ 6ceqaqqknay21 = 132..144 }] run function sweden1:song/sweden/note/132_144
+                execute if entity @s[scores={ 6ceqaqqknay21 = 156..168 }] run function sweden1:song/sweden/note/156_168
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 192 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+
+@function sweden1:song/sweden/chord/5kh71bg36827
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0594630943592953
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/note/0_12
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 0 }] run function sweden1:song/sweden/chord/5kh71bg36827
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 12 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0
+
+@function sweden1:song/sweden/chord/7b9cyw3z5sskx
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/24_36
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 24 }] run function sweden1:song/sweden/chord/7b9cyw3z5sskx
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 36 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/chord/4tvuudsuf195b
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/48_60
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 48 }] run function sweden1:song/sweden/chord/4tvuudsuf195b
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 60 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/chord/6h5x3bgcyf7jj
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function sweden1:song/sweden/note/72_96
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 72 }] run function sweden1:song/sweden/chord/6h5x3bgcyf7jj
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 96 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+
+@function sweden1:song/sweden/chord/mryzzd4yszev
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0594630943592953
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/note/108_120
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 108 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 120 }] run function sweden1:song/sweden/chord/33s59v7vupvba
+
+
+@function sweden1:song/sweden/chord/33s59v7vupvba
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 2.0
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/132_144
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 132 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 144 }] run function sweden1:song/sweden/chord/5u11r4j1rvm9h
+
+
+@function sweden1:song/sweden/chord/5u11r4j1rvm9h
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/156_168
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 156 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 168 }] run function sweden1:song/sweden/chord/6crjjs81fe5dp
+
+
+@function sweden1:song/sweden/chord/6crjjs81fe5dp
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.7817974362806785
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function sweden1:song/sweden/note/204_348
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..216 }] run function sweden1:song/sweden/note/204_216
+                execute if entity @s[scores={ 6ceqaqqknay21 = 228..240 }] run function sweden1:song/sweden/note/228_240
+                execute if entity @s[scores={ 6ceqaqqknay21 = 252..264 }] run function sweden1:song/sweden/note/252_264
+                execute if entity @s[scores={ 6ceqaqqknay21 = 288..300 }] run function sweden1:song/sweden/note/288_300
+                execute if entity @s[scores={ 6ceqaqqknay21 = 306..312 }] run function sweden1:song/sweden/note/306_312
+                execute if entity @s[scores={ 6ceqaqqknay21 = 324..330 }] run function sweden1:song/sweden/note/324_330
+                execute if entity @s[scores={ 6ceqaqqknay21 = 333..336 }] run function sweden1:song/sweden/note/333_336
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 348 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/204_216
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 204 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 216 }] run function sweden1:song/sweden/chord/33s59v7vupvba
+
+
+@function sweden1:song/sweden/note/228_240
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 228 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 240 }] run function sweden1:song/sweden/chord/5u11r4j1rvm9h
+
+
+@function sweden1:song/sweden/note/252_264
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 252 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 264 }] run function sweden1:song/sweden/chord/6crjjs81fe5dp
+
+
+@function sweden1:song/sweden/note/288_300
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 288 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 300 }] run function sweden1:song/sweden/chord/5gsngwqq8nojx
+
+
+@function sweden1:song/sweden/chord/5gsngwqq8nojx
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0
+
+@function sweden1:song/sweden/note/306_312
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 306 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 312 }] run function sweden1:song/sweden/chord/34ki17f4najef
+
+
+@function sweden1:song/sweden/chord/34ki17f4najef
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/324_330
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 324 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 330 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function sweden1:song/sweden/note/333_336
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 333 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 336 }] run function sweden1:song/sweden/chord/5u11r4j1rvm9h
+
+
+@function sweden1:song/sweden/note/354_453
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..357 }] run function sweden1:song/sweden/note/354_357
+                execute if entity @s[scores={ 6ceqaqqknay21 = 360..384 }] run function sweden1:song/sweden/note/360_384
+                execute if entity @s[scores={ 6ceqaqqknay21 = 390..396 }] run function sweden1:song/sweden/note/390_396
+                execute if entity @s[scores={ 6ceqaqqknay21 = 402..408 }] run function sweden1:song/sweden/note/402_408
+                execute if entity @s[scores={ 6ceqaqqknay21 = 420..426 }] run function sweden1:song/sweden/note/420_426
+                execute if entity @s[scores={ 6ceqaqqknay21 = 429..432 }] run function sweden1:song/sweden/note/429_432
+                execute if entity @s[scores={ 6ceqaqqknay21 = 444..450 }] run function sweden1:song/sweden/note/444_450
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 453 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+
+@function sweden1:song/sweden/note/354_357
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 354 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 357 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/chord/2xsui288g4xtn
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function sweden1:song/sweden/note/360_384
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 360 }] run function sweden1:song/sweden/chord/2xsui288g4xtn
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 384 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+
+@function sweden1:song/sweden/note/390_396
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 390 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 396 }] run function sweden1:song/sweden/chord/2pda6beaz8ijv
+
+
+@function sweden1:song/sweden/chord/2pda6beaz8ijv
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0
+
+@function sweden1:song/sweden/note/402_408
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 402 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 408 }] run function sweden1:song/sweden/chord/34ki17f4najef
+
+
+@function sweden1:song/sweden/note/420_426
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 420 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 426 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function sweden1:song/sweden/note/429_432
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 429 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 432 }] run function sweden1:song/sweden/chord/2zrwsod3eqpaa
+
+
+@function sweden1:song/sweden/chord/2zrwsod3eqpaa
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7491535384383408
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/444_450
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 444 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 450 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/456_576
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..480 }] run function sweden1:song/sweden/note/456_480
+                execute if entity @s[scores={ 6ceqaqqknay21 = 492..498 }] run function sweden1:song/sweden/note/492_498
+                execute if entity @s[scores={ 6ceqaqqknay21 = 504..516 }] run function sweden1:song/sweden/note/504_516
+                execute if entity @s[scores={ 6ceqaqqknay21 = 522..525 }] run function sweden1:song/sweden/note/522_525
+                execute if entity @s[scores={ 6ceqaqqknay21 = 528..540 }] run function sweden1:song/sweden/note/528_540
+                execute if entity @s[scores={ 6ceqaqqknay21 = 546..549 }] run function sweden1:song/sweden/note/546_549
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 552 }] run function sweden1:song/sweden/chord/35ddwntt58msb
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 576 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+
+@function sweden1:song/sweden/note/456_480
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 456 }] run function sweden1:song/sweden/chord/6crjjs81fe5dp
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 480 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+
+@function sweden1:song/sweden/note/492_498
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 492 }] run function sweden1:song/sweden/chord/5gsngwqq8nojx
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 498 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/chord/4a42uatcn9dax
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 2.0
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/504_516
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 504 }] run function sweden1:song/sweden/chord/4a42uatcn9dax
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 516 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/chord/8mgfgq2e8x86k
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 2.0
+
+@function sweden1:song/sweden/note/522_525
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 522 }] run function sweden1:song/sweden/chord/8mgfgq2e8x86k
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 525 }] run function sweden1:song/sweden/chord/5y2t9z4y6cuhi
+
+
+@function sweden1:song/sweden/chord/5y2t9z4y6cuhi
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.7817974362806785
+
+@function sweden1:song/sweden/chord/4an58v3dht5om
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/528_540
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 528 }] run function sweden1:song/sweden/chord/4an58v3dht5om
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 540 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/chord/2c5j537j61gtd
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+
+@function sweden1:song/sweden/note/546_549
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 546 }] run function sweden1:song/sweden/chord/2c5j537j61gtd
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 549 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+
+@function sweden1:song/sweden/chord/35ddwntt58msb
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.7817974362806785
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function sweden1:song/sweden/note/588_690
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..594 }] run function sweden1:song/sweden/note/588_594
+                execute if entity @s[scores={ 6ceqaqqknay21 = 600..612 }] run function sweden1:song/sweden/note/600_612
+                execute if entity @s[scores={ 6ceqaqqknay21 = 618..621 }] run function sweden1:song/sweden/note/618_621
+                execute if entity @s[scores={ 6ceqaqqknay21 = 624..636 }] run function sweden1:song/sweden/note/624_636
+                execute if entity @s[scores={ 6ceqaqqknay21 = 642..645 }] run function sweden1:song/sweden/note/642_645
+                execute if entity @s[scores={ 6ceqaqqknay21 = 648..672 }] run function sweden1:song/sweden/note/648_672
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 684 }] run function sweden1:song/sweden/chord/5gsngwqq8nojx
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 690 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/note/588_594
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 588 }] run function sweden1:song/sweden/chord/2pda6beaz8ijv
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 594 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/600_612
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 600 }] run function sweden1:song/sweden/chord/34ki17f4najef
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 612 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/note/618_621
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 618 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 621 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/note/624_636
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 624 }] run function sweden1:song/sweden/chord/2zrwsod3eqpaa
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 636 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/642_645
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 642 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 645 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/648_672
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 648 }] run function sweden1:song/sweden/chord/2xsui288g4xtn
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 672 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+
+@function sweden1:song/sweden/note/696_804
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..708 }] run function sweden1:song/sweden/note/696_708
+                execute if entity @s[scores={ 6ceqaqqknay21 = 714..717 }] run function sweden1:song/sweden/note/714_717
+                execute if entity @s[scores={ 6ceqaqqknay21 = 720..732 }] run function sweden1:song/sweden/note/720_732
+                execute if entity @s[scores={ 6ceqaqqknay21 = 738..741 }] run function sweden1:song/sweden/note/738_741
+                execute if entity @s[scores={ 6ceqaqqknay21 = 744..768 }] run function sweden1:song/sweden/note/744_768
+                execute if entity @s[scores={ 6ceqaqqknay21 = 780..786 }] run function sweden1:song/sweden/note/780_786
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 792 }] run function sweden1:song/sweden/chord/4a42uatcn9dax
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 804 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/note/696_708
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 696 }] run function sweden1:song/sweden/chord/34ki17f4najef
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 708 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/note/714_717
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 714 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 717 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/note/720_732
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 720 }] run function sweden1:song/sweden/chord/2zrwsod3eqpaa
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 732 }] run playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/738_741
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 738 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 741 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/744_768
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 744 }] run function sweden1:song/sweden/chord/2xsui288g4xtn
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 768 }] run function sweden1:song/sweden/chord/mryzzd4yszev
+
+
+@function sweden1:song/sweden/note/780_786
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 780 }] run function sweden1:song/sweden/chord/5gsngwqq8nojx
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 786 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+
+@function sweden1:song/sweden/note/810_912
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..813 }] run function sweden1:song/sweden/note/810_813
+                execute if entity @s[scores={ 6ceqaqqknay21 = 816..828 }] run function sweden1:song/sweden/note/816_828
+                execute if entity @s[scores={ 6ceqaqqknay21 = 834..837 }] run function sweden1:song/sweden/note/834_837
+                execute if entity @s[scores={ 6ceqaqqknay21 = 840..864 }] run function sweden1:song/sweden/note/840_864
+                execute if entity @s[scores={ 6ceqaqqknay21 = 882..885 }] run function sweden1:song/sweden/note/882_885
+                execute if entity @s[scores={ 6ceqaqqknay21 = 888..900 }] run function sweden1:song/sweden/note/888_900
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 906 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 912 }] run function sweden1:song/sweden/chord/53ra2h69d4d8y
+
+
+@function sweden1:song/sweden/note/810_813
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 810 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 813 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/note/816_828
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 816 }] run function sweden1:song/sweden/chord/2zrwsod3eqpaa
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 828 }] run function sweden1:song/sweden/chord/6nc8bz8nmt6iu
+
+
+@function sweden1:song/sweden/chord/6nc8bz8nmt6iu
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 2.0
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/834_837
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 834 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 837 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/840_864
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 840 }] run function sweden1:song/sweden/chord/6crjjs81fe5dp
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 864 }] run function sweden1:song/sweden/chord/6w971sy8588f8
+
+
+@function sweden1:song/sweden/chord/6w971sy8588f8
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.6674199270850172
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.6674199270850172
+
+@function sweden1:song/sweden/note/882_885
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 882 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 885 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/chord/4gc7ozsu2agmb
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.122462048309373
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/note/888_900
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 888 }] run function sweden1:song/sweden/chord/4gc7ozsu2agmb
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 900 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/chord/53ra2h69d4d8y
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.5946035575013605
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7491535384383408
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.5946035575013605
+
+@function sweden1:song/sweden/note/930_1032
+                execute if entity @s[scores={ 6ceqaqqknay21 = ..933 }] run function sweden1:song/sweden/note/930_933
+                execute if entity @s[scores={ 6ceqaqqknay21 = 936..960 }] run function sweden1:song/sweden/note/936_960
+                execute if entity @s[scores={ 6ceqaqqknay21 = 978..981 }] run function sweden1:song/sweden/note/978_981
+                execute if entity @s[scores={ 6ceqaqqknay21 = 984..996 }] run function sweden1:song/sweden/note/984_996
+                execute if entity @s[scores={ 6ceqaqqknay21 = 1002..1008 }] run function sweden1:song/sweden/note/1002_1008
+                execute if entity @s[scores={ 6ceqaqqknay21 = 1020..1026 }] run function sweden1:song/sweden/note/1020_1026
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 1029 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 1032 }] run function sweden1:song/sweden/chord/7a1bck495da5f
+
+
+@function sweden1:song/sweden/note/930_933
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 930 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 933 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/chord/2op85i7m7huyg
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0594630943592953
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.6674199270850172
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note/936_960
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 936 }] run function sweden1:song/sweden/chord/2op85i7m7huyg
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 960 }] run function sweden1:song/sweden/chord/8eed2u2n33hqc
+
+
+@function sweden1:song/sweden/chord/8eed2u2n33hqc
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.6674199270850172
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.3348398541700344
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.6674199270850172
+
+@function sweden1:song/sweden/note/978_981
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 978 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 981 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+
+@function sweden1:song/sweden/note/984_996
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 984 }] run function sweden1:song/sweden/chord/4gc7ozsu2agmb
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 996 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+
+@function sweden1:song/sweden/chord/7toyfc1ozmjzu
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.7817974362806785
+
+@function sweden1:song/sweden/note/1002_1008
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 1002 }] run function sweden1:song/sweden/chord/7toyfc1ozmjzu
+
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 1008 }] run function sweden1:song/sweden/chord/6pk2hz9pfjyvw
+
+
+@function sweden1:song/sweden/chord/6pk2hz9pfjyvw
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.5946035575013605
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.8908987181403393
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.189207115002721
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7491535384383408
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.4983070768766815
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 0.5946035575013605
+
+@function sweden1:song/sweden/note/1020_1026
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 1020 }] run playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.5874010519681996
+                    execute if entity @s[scores={ 6ceqaqqknay21 = 1026 }] run function sweden1:song/sweden/chord/8mgfgq2e8x86k
+
+
+@function sweden1:song/sweden/chord/7a1bck495da5f
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.0594630943592953
+                            playsound block.note_block.harp record @s ^ ^ ^ 1.0 1.3348398541700344
+                            playsound block.note_block.bass record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function sweden1:song/sweden/note
+                execute if entity @s[scores={ 6ceqaqqknay21 = 0..192 }] run function sweden1:song/sweden/note/0_192
+                execute if entity @s[scores={ 6ceqaqqknay21 = 204..348 }] run function sweden1:song/sweden/note/204_348
+                execute if entity @s[scores={ 6ceqaqqknay21 = 354..453 }] run function sweden1:song/sweden/note/354_453
+                execute if entity @s[scores={ 6ceqaqqknay21 = 456..576 }] run function sweden1:song/sweden/note/456_576
+                execute if entity @s[scores={ 6ceqaqqknay21 = 588..690 }] run function sweden1:song/sweden/note/588_690
+                execute if entity @s[scores={ 6ceqaqqknay21 = 696..804 }] run function sweden1:song/sweden/note/696_804
+                execute if entity @s[scores={ 6ceqaqqknay21 = 810..912 }] run function sweden1:song/sweden/note/810_912
+                execute if entity @s[scores={ 6ceqaqqknay21 = 930..1032 }] run function sweden1:song/sweden/note/930_1032
+    scoreboard players add @s 6ceqaqqknay21 1
+
+@function sweden1:scoreboard
+scoreboard objectives add 6ceqaqqknay21 dummy "sweden1.song.sweden.tick"
+
+@function_tag minecraft:tick
+{
+  "values": [
+    "sweden1:song/sweden/tick"
+  ]
+}
+
+@function_tag minecraft:load
+{
+  "values": [
+    "sweden1:scoreboard"
+  ]
+}
