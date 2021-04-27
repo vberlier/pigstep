@@ -1,0 +1,12 @@
+{
+  "pipeline": ["pigstep", "beet.contrib.scoreboard"],
+  "meta": {
+    "pigstep": {
+      "load": ["*.nbs"],
+      "source": "ambient",
+      "templates": {
+        "play": "custom_play.mcfunction"
+      }
+    }
+  }
+}
