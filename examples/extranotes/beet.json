@@ -1,0 +1,8 @@
+{
+  "pipeline": ["pigstep", "beet.contrib.scoreboard"],
+  "meta": {
+    "pigstep": {
+      "load": ["*.nbs"]
+    }
+  }
+}

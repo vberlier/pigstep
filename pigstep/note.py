@@ -55,7 +55,8 @@ def load_nbs(filename: FileSystemPath) -> Iterator[Tuple[int, List["Note"]]]:
     for tick, chord in song:
         yield tick, [
             Note(
-                instrument=sounds[note.instrument],
+                instrument=sounds[note.instrument]
+                + ("_-1" if note.key <= 32 else "_1" if note.key >= 58 else ""),
                 volume=(song.layers[note.layer].volume / 100) * (note.velocity / 100),
                 pitch=get_pitch(note),
             )
@@ -64,7 +65,7 @@ def load_nbs(filename: FileSystemPath) -> Iterator[Tuple[int, List["Note"]]]:
 
 
 def get_pitch(note: Any) -> float:
-    """"Get pitch for a given nbs note."""
+    """Get pitch for a given nbs note."""
     key = note.key + note.pitch / 100
 
     if key < 33:

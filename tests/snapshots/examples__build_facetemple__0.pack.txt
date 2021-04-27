@@ -1,0 +1,1144 @@
+@resource_pack pack.mcmeta
+{
+  "pack": {
+    "pack_format": 6,
+    "description": ""
+  }
+}
+
+@resource_pack assets/minecraft/sounds.json
+{
+  "block.note_block.bit_1": {
+    "sounds": [
+      "block/note_block/bit_1"
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+  }
+}
+
+@sound(base64) minecraft:block/note_block/bit_1
+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lAJABAMAYg5BBBiFjEEIIIYQQQggJAAAYcAAACDChDBQashIASAUAAAxSijEHpaQUKcWYcxBKSSlSijHnIJSSUsWYcxBKSam1ijHnIJSSUmudcxBKSam1GDvnIJSSUmsxhhBKSam1GGMMIZSSUmsx1lpKSam1GGvMtZSSUmsx1lprSq21GGutNeeUWmsx1lpzzgUAIDQ4AIAd2LA6wknRWGChISsBgDwAAEgpxhhjjDGlFGOMMcaYUooxxhhjjDHGGGOMMaYYY4wxxhhjjDHGGGOMMcYYY4wxxhhjjDHmGGOMMcYYY8w5xhhjjDnmHGOMMcacc04AAFCBAwBAgI0imxOMBBUashIACAcAAIxhzDnnIJSQSqOUcxBCKCWVVhqlnIMSQikptZY5JyWlUlJqLbbMOSkplZJSay12ElJqLaXWYqyxg5BSa6m1FmONHYRSWootxhpz7SCUklprMcZaayilpdhirLHWmkMpqbUWY60151xSai3GWmvNteeSUmsxxlprrbmn1mKssdZcc+89tRZjjbXmnHvOBQCYPDgAQCXYOMNK0lnhaHChISsBgNwAAEYpxpxzDkIIIYQQQgiVUow55xyEEEIIIYQQKqUYc845CCGEEEIIIWSMOeccdBBCCCGEEELIGHPOOQghhBBCCCGE0DnnHIQQQgghhFBCKaVzzjkHIYQQQgghhFBK5xyEEEIIIYQSSiillM45CCGEEEIIpYRSSikhhBBCCCGEEkoppZRSOgghhBBCCKWUUkoppYQQQgghhBBKKaWUUkoJIYQQQgghlFJKKaWUEkIIIYQSSimllFJKKSWEEEIIoZRSSimllFJKCCGEUkoppZRSSimllBBCKCGUUkoppZRSSikhhBJKKKWUUkoppZRSQggllFJKKaWUUkoppYQQQiillFJKKaWUUkoJIZRSSimllFJKKaWUUgAA0IEDAECAEZUWYqcZVx6BIwoZJqBCQ1YCAOEAAAAhlFJKKaWUUmokpZRSSimllFIjJaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSqWUUkoppZRSSimllFJKKaWUUkoppQCoywwHwOgJG2dYSTorHA0uNGQ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
+
+@data_pack pack.mcmeta
+{
+  "pack": {
+    "pack_format": 6,
+    "description": ""
+  }
+}
+
+@function facetemple:song/facetemple/play
+tag @s add facetemple.song.facetemple.play
+scoreboard players add @s 5ok76phnas7sv 1
+scoreboard players remove @s 5ok76phnas7sv 1
+
+@function facetemple:song/facetemple/pause
+tag @s remove facetemple.song.facetemple.play
+
+@function facetemple:song/facetemple/stop
+tag @s remove facetemple.song.facetemple.play
+scoreboard players reset @s 5ok76phnas7sv
+
+@function facetemple:song/facetemple/tick
+execute as @a[tag=facetemple.song.facetemple.play] at @s run function facetemple:song/facetemple/note
+
+
+@function facetemple:song/facetemple/note/0_92
+                execute if entity @s[scores={ 5ok76phnas7sv = ..8 }] run function facetemple:song/facetemple/note/0_8
+                execute if entity @s[scores={ 5ok76phnas7sv = 12..20 }] run function facetemple:song/facetemple/note/12_20
+                execute if entity @s[scores={ 5ok76phnas7sv = 24..32 }] run function facetemple:song/facetemple/note/24_32
+                execute if entity @s[scores={ 5ok76phnas7sv = 36..44 }] run function facetemple:song/facetemple/note/36_44
+                execute if entity @s[scores={ 5ok76phnas7sv = 48..56 }] run function facetemple:song/facetemple/note/48_56
+                execute if entity @s[scores={ 5ok76phnas7sv = 60..68 }] run function facetemple:song/facetemple/note/60_68
+                execute if entity @s[scores={ 5ok76phnas7sv = 72..80 }] run function facetemple:song/facetemple/note/72_80
+                execute if entity @s[scores={ 5ok76phnas7sv = 84.. }] run function facetemple:song/facetemple/note/84_92
+
+@function facetemple:song/facetemple/chord/25c1neitofxq2
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5297315471796477
+
+@function facetemple:song/facetemple/note/0_8
+                    execute if entity @s[scores={ 5ok76phnas7sv = 0 }] run function facetemple:song/facetemple/chord/25c1neitofxq2
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 4 }] run function facetemple:song/facetemple/chord/2bhrzamjcvnmz
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 8 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+
+@function facetemple:song/facetemple/chord/2bhrzamjcvnmz
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+
+@function facetemple:song/facetemple/chord/4jkutuphuxvuc
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.6674199270850172
+
+@function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+
+@function facetemple:song/facetemple/note/12_20
+                    execute if entity @s[scores={ 5ok76phnas7sv = 12 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 16 }] run function facetemple:song/facetemple/chord/54m5c8fxqxpj2
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 20 }] run function facetemple:song/facetemple/chord/2tcwujv158ke2
+
+
+@function facetemple:song/facetemple/chord/54m5c8fxqxpj2
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/chord/2tcwujv158ke2
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+
+@function facetemple:song/facetemple/note/24_32
+                    execute if entity @s[scores={ 5ok76phnas7sv = 24 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 28 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 32 }] run function facetemple:song/facetemple/chord/25c1neitofxq2
+
+
+@function facetemple:song/facetemple/note/36_44
+                    execute if entity @s[scores={ 5ok76phnas7sv = 36 }] run function facetemple:song/facetemple/chord/2bhrzamjcvnmz
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 40 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 44 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+
+@function facetemple:song/facetemple/note/48_56
+                    execute if entity @s[scores={ 5ok76phnas7sv = 48 }] run function facetemple:song/facetemple/chord/54m5c8fxqxpj2
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 52 }] run function facetemple:song/facetemple/chord/2tcwujv158ke2
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 56 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+
+@function facetemple:song/facetemple/note/60_68
+                    execute if entity @s[scores={ 5ok76phnas7sv = 60 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 64 }] run function facetemple:song/facetemple/chord/4e2j9t3s5mp6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 68 }] run function facetemple:song/facetemple/chord/4hpqjmaprtaws
+
+
+@function facetemple:song/facetemple/chord/4e2j9t3s5mp6
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+
+@function facetemple:song/facetemple/chord/4hpqjmaprtaws
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+
+@function facetemple:song/facetemple/note/72_80
+                    execute if entity @s[scores={ 5ok76phnas7sv = 72 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 76 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 80 }] run function facetemple:song/facetemple/chord/54m5c8fxqxpj2
+
+
+@function facetemple:song/facetemple/note/84_92
+                    execute if entity @s[scores={ 5ok76phnas7sv = 84 }] run function facetemple:song/facetemple/chord/2tcwujv158ke2
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 88 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 92 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+
+@function facetemple:song/facetemple/note/96_188
+                execute if entity @s[scores={ 5ok76phnas7sv = ..104 }] run function facetemple:song/facetemple/note/96_104
+                execute if entity @s[scores={ 5ok76phnas7sv = 108..116 }] run function facetemple:song/facetemple/note/108_116
+                execute if entity @s[scores={ 5ok76phnas7sv = 120..128 }] run function facetemple:song/facetemple/note/120_128
+                execute if entity @s[scores={ 5ok76phnas7sv = 132..140 }] run function facetemple:song/facetemple/note/132_140
+                execute if entity @s[scores={ 5ok76phnas7sv = 144..152 }] run function facetemple:song/facetemple/note/144_152
+                execute if entity @s[scores={ 5ok76phnas7sv = 156..164 }] run function facetemple:song/facetemple/note/156_164
+                execute if entity @s[scores={ 5ok76phnas7sv = 168..176 }] run function facetemple:song/facetemple/note/168_176
+                execute if entity @s[scores={ 5ok76phnas7sv = 180.. }] run function facetemple:song/facetemple/note/180_188
+
+@function facetemple:song/facetemple/note/96_104
+                    execute if entity @s[scores={ 5ok76phnas7sv = 96 }] run function facetemple:song/facetemple/chord/4e2j9t3s5mp6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 100 }] run function facetemple:song/facetemple/chord/4hpqjmaprtaws
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 104 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+
+@function facetemple:song/facetemple/note/108_116
+                    execute if entity @s[scores={ 5ok76phnas7sv = 108 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 112 }] run function facetemple:song/facetemple/chord/54m5c8fxqxpj2
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 116 }] run function facetemple:song/facetemple/chord/2tcwujv158ke2
+
+
+@function facetemple:song/facetemple/note/120_128
+                    execute if entity @s[scores={ 5ok76phnas7sv = 120 }] run function facetemple:song/facetemple/chord/4jkutuphuxvuc
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 124 }] run function facetemple:song/facetemple/chord/2cc7h3dfazs7r
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 128 }] run function facetemple:song/facetemple/chord/3u9girqp3kbwk
+
+
+@function facetemple:song/facetemple/chord/3u9girqp3kbwk
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.5612310241546865
+
+@function facetemple:song/facetemple/chord/4jucs2om4xhmi
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+
+@function facetemple:song/facetemple/note/132_140
+                    execute if entity @s[scores={ 5ok76phnas7sv = 132 }] run function facetemple:song/facetemple/chord/4jucs2om4xhmi
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 136 }] run function facetemple:song/facetemple/chord/21ffihobrxosk
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 140 }] run function facetemple:song/facetemple/chord/3w2xpwhzmxjyz
+
+
+@function facetemple:song/facetemple/chord/21ffihobrxosk
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7071067811865476
+
+@function facetemple:song/facetemple/chord/3w2xpwhzmxjyz
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/86jk54zsoj3vg
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.9438743126816934
+
+@function facetemple:song/facetemple/note/144_152
+                    execute if entity @s[scores={ 5ok76phnas7sv = 144 }] run function facetemple:song/facetemple/chord/86jk54zsoj3vg
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 148 }] run function facetemple:song/facetemple/chord/c4iirf4a3t6x
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 152 }] run function facetemple:song/facetemple/chord/21ffihobrxosk
+
+
+@function facetemple:song/facetemple/chord/c4iirf4a3t6x
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+
+@function facetemple:song/facetemple/note/156_164
+                    execute if entity @s[scores={ 5ok76phnas7sv = 156 }] run function facetemple:song/facetemple/chord/3w2xpwhzmxjyz
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 160 }] run function facetemple:song/facetemple/chord/3mff9i4zfsumr
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 164 }] run function facetemple:song/facetemple/chord/6st5gahb9x7tk
+
+
+@function facetemple:song/facetemple/chord/3mff9i4zfsumr
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.5612310241546865
+
+@function facetemple:song/facetemple/chord/6st5gahb9x7tk
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/3ej9gkij71yp4
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7071067811865476
+
+@function facetemple:song/facetemple/note/168_176
+                    execute if entity @s[scores={ 5ok76phnas7sv = 168 }] run function facetemple:song/facetemple/chord/3ej9gkij71yp4
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 172 }] run function facetemple:song/facetemple/chord/5xixcotfyssri
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 176 }] run function facetemple:song/facetemple/chord/2ied7uzyb49k6
+
+
+@function facetemple:song/facetemple/chord/5xixcotfyssri
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/2ied7uzyb49k6
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.9438743126816934
+
+@function facetemple:song/facetemple/chord/2vxytgpu8ibtr
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+
+@function facetemple:song/facetemple/note/180_188
+                    execute if entity @s[scores={ 5ok76phnas7sv = 180 }] run function facetemple:song/facetemple/chord/2vxytgpu8ibtr
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 184 }] run function facetemple:song/facetemple/chord/3ej9gkij71yp4
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 188 }] run function facetemple:song/facetemple/chord/5xixcotfyssri
+
+
+@function facetemple:song/facetemple/note/192_284
+                execute if entity @s[scores={ 5ok76phnas7sv = ..200 }] run function facetemple:song/facetemple/note/192_200
+                execute if entity @s[scores={ 5ok76phnas7sv = 204..212 }] run function facetemple:song/facetemple/note/204_212
+                execute if entity @s[scores={ 5ok76phnas7sv = 216..224 }] run function facetemple:song/facetemple/note/216_224
+                execute if entity @s[scores={ 5ok76phnas7sv = 228..236 }] run function facetemple:song/facetemple/note/228_236
+                execute if entity @s[scores={ 5ok76phnas7sv = 240..248 }] run function facetemple:song/facetemple/note/240_248
+                execute if entity @s[scores={ 5ok76phnas7sv = 252..260 }] run function facetemple:song/facetemple/note/252_260
+                execute if entity @s[scores={ 5ok76phnas7sv = 264..272 }] run function facetemple:song/facetemple/note/264_272
+                execute if entity @s[scores={ 5ok76phnas7sv = 276.. }] run function facetemple:song/facetemple/note/276_284
+
+@function facetemple:song/facetemple/chord/68gctgeibwv5y
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.5297315471796477
+
+@function facetemple:song/facetemple/note/192_200
+                    execute if entity @s[scores={ 5ok76phnas7sv = 192 }] run function facetemple:song/facetemple/chord/68gctgeibwv5y
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 196 }] run function facetemple:song/facetemple/chord/78afsd2yeyr7w
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 200 }] run function facetemple:song/facetemple/chord/7bej73dfi2iew
+
+
+@function facetemple:song/facetemple/chord/78afsd2yeyr7w
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+
+@function facetemple:song/facetemple/chord/7bej73dfi2iew
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/6fjy22re9d18j
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+
+@function facetemple:song/facetemple/note/204_212
+                    execute if entity @s[scores={ 5ok76phnas7sv = 204 }] run function facetemple:song/facetemple/chord/6fjy22re9d18j
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 208 }] run function facetemple:song/facetemple/chord/42mnfvsxjdjzd
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 212 }] run function facetemple:song/facetemple/chord/7u7zpcuca6gyp
+
+
+@function facetemple:song/facetemple/chord/42mnfvsxjdjzd
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0594630943592953
+
+@function facetemple:song/facetemple/chord/7u7zpcuca6gyp
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+
+@function facetemple:song/facetemple/note/216_224
+                    execute if entity @s[scores={ 5ok76phnas7sv = 216 }] run function facetemple:song/facetemple/chord/7bej73dfi2iew
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 220 }] run function facetemple:song/facetemple/chord/6fjy22re9d18j
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 224 }] run function facetemple:song/facetemple/chord/6eaxb87bro4i6
+
+
+@function facetemple:song/facetemple/chord/6eaxb87bro4i6
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5297315471796477
+
+@function facetemple:song/facetemple/chord/23ccpf3g1rwr
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/note/228_236
+                    execute if entity @s[scores={ 5ok76phnas7sv = 228 }] run function facetemple:song/facetemple/chord/23ccpf3g1rwr
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 232 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 236 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+
+@function facetemple:song/facetemple/chord/8qjndo713ajc6
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/7u98815gpfxjx
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/chord/gym23w4dzf64
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 1.0594630943592953
+
+@function facetemple:song/facetemple/note/240_248
+                    execute if entity @s[scores={ 5ok76phnas7sv = 240 }] run function facetemple:song/facetemple/chord/gym23w4dzf64
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 244 }] run function facetemple:song/facetemple/chord/6gpbkcqtkuwn7
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 248 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+
+@function facetemple:song/facetemple/chord/6gpbkcqtkuwn7
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/note/252_260
+                    execute if entity @s[scores={ 5ok76phnas7sv = 252 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 256 }] run function facetemple:song/facetemple/chord/3or4jkgjsgctz
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 260 }] run function facetemple:song/facetemple/chord/2o3npmo1yvvhi
+
+
+@function facetemple:song/facetemple/chord/3or4jkgjsgctz
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+
+@function facetemple:song/facetemple/chord/2o3npmo1yvvhi
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/note/264_272
+                    execute if entity @s[scores={ 5ok76phnas7sv = 264 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 268 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 272 }] run function facetemple:song/facetemple/chord/857vvt71rfb6a
+
+
+@function facetemple:song/facetemple/chord/857vvt71rfb6a
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 1.122462048309373
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 1.122462048309373
+
+@function facetemple:song/facetemple/chord/65gipc78k6qso
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 1.122462048309373
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/note/276_284
+                    execute if entity @s[scores={ 5ok76phnas7sv = 276 }] run function facetemple:song/facetemple/chord/65gipc78k6qso
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 280 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 284 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+
+@function facetemple:song/facetemple/note/288_380
+                execute if entity @s[scores={ 5ok76phnas7sv = ..296 }] run function facetemple:song/facetemple/note/288_296
+                execute if entity @s[scores={ 5ok76phnas7sv = 300..308 }] run function facetemple:song/facetemple/note/300_308
+                execute if entity @s[scores={ 5ok76phnas7sv = 312..320 }] run function facetemple:song/facetemple/note/312_320
+                execute if entity @s[scores={ 5ok76phnas7sv = 324..332 }] run function facetemple:song/facetemple/note/324_332
+                execute if entity @s[scores={ 5ok76phnas7sv = 336..344 }] run function facetemple:song/facetemple/note/336_344
+                execute if entity @s[scores={ 5ok76phnas7sv = 348..356 }] run function facetemple:song/facetemple/note/348_356
+                execute if entity @s[scores={ 5ok76phnas7sv = 360..368 }] run function facetemple:song/facetemple/note/360_368
+                execute if entity @s[scores={ 5ok76phnas7sv = 372.. }] run function facetemple:song/facetemple/note/372_380
+
+@function facetemple:song/facetemple/chord/4cnxo4o3gbtov
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7071067811865476
+
+@function facetemple:song/facetemple/note/288_296
+                    execute if entity @s[scores={ 5ok76phnas7sv = 288 }] run function facetemple:song/facetemple/chord/4cnxo4o3gbtov
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 292 }] run function facetemple:song/facetemple/chord/6sddgyizqcarv
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 296 }] run function facetemple:song/facetemple/chord/4xurdq4iyyznk
+
+
+@function facetemple:song/facetemple/chord/6sddgyizqcarv
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7071067811865476
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+
+@function facetemple:song/facetemple/chord/4xurdq4iyyznk
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/7cyvj4i7kab92
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+
+@function facetemple:song/facetemple/note/300_308
+                    execute if entity @s[scores={ 5ok76phnas7sv = 300 }] run function facetemple:song/facetemple/chord/7cyvj4i7kab92
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 304 }] run function facetemple:song/facetemple/chord/8hwdetc7nuamr
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 308 }] run function facetemple:song/facetemple/chord/2hknsg32vhezs
+
+
+@function facetemple:song/facetemple/chord/8hwdetc7nuamr
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 1.122462048309373
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 1.122462048309373
+
+@function facetemple:song/facetemple/chord/2hknsg32vhezs
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 1.122462048309373
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.8408964152537145
+
+@function facetemple:song/facetemple/note/312_320
+                    execute if entity @s[scores={ 5ok76phnas7sv = 312 }] run function facetemple:song/facetemple/chord/4xurdq4iyyznk
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 316 }] run function facetemple:song/facetemple/chord/7cyvj4i7kab92
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 320 }] run function facetemple:song/facetemple/chord/34nxjbknj44je
+
+
+@function facetemple:song/facetemple/chord/34nxjbknj44je
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+
+@function facetemple:song/facetemple/chord/2i2fb8gz7u3nx
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+
+@function facetemple:song/facetemple/note/324_332
+                    execute if entity @s[scores={ 5ok76phnas7sv = 324 }] run function facetemple:song/facetemple/chord/2i2fb8gz7u3nx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 328 }] run function facetemple:song/facetemple/chord/3vdt5njim551n
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 332 }] run function facetemple:song/facetemple/chord/7to5gnvp91ny4
+
+
+@function facetemple:song/facetemple/chord/3vdt5njim551n
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7071067811865476
+
+@function facetemple:song/facetemple/chord/7to5gnvp91ny4
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/52jyv493kv85c
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.9438743126816934
+
+@function facetemple:song/facetemple/note/336_344
+                    execute if entity @s[scores={ 5ok76phnas7sv = 336 }] run function facetemple:song/facetemple/chord/52jyv493kv85c
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 340 }] run function facetemple:song/facetemple/chord/4xxc2bjrka8re
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 344 }] run function facetemple:song/facetemple/chord/3vdt5njim551n
+
+
+@function facetemple:song/facetemple/chord/4xxc2bjrka8re
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+
+@function facetemple:song/facetemple/note/348_356
+                    execute if entity @s[scores={ 5ok76phnas7sv = 348 }] run function facetemple:song/facetemple/chord/7to5gnvp91ny4
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 352 }] run function facetemple:song/facetemple/chord/3622gupuw5ovw
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 356 }] run function facetemple:song/facetemple/chord/2yszmh9g57z1g
+
+
+@function facetemple:song/facetemple/chord/3622gupuw5ovw
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.5612310241546865
+
+@function facetemple:song/facetemple/chord/2yszmh9g57z1g
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/5qvmaavc15gaf
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7071067811865476
+
+@function facetemple:song/facetemple/note/360_368
+                    execute if entity @s[scores={ 5ok76phnas7sv = 360 }] run function facetemple:song/facetemple/chord/5qvmaavc15gaf
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 364 }] run function facetemple:song/facetemple/chord/73pxdsdzzozgh
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 368 }] run function facetemple:song/facetemple/chord/5zsttr548xu7f
+
+
+@function facetemple:song/facetemple/chord/73pxdsdzzozgh
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/5zsttr548xu7f
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.9438743126816934
+
+@function facetemple:song/facetemple/chord/isqm9q5eryws
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+
+@function facetemple:song/facetemple/note/372_380
+                    execute if entity @s[scores={ 5ok76phnas7sv = 372 }] run function facetemple:song/facetemple/chord/isqm9q5eryws
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 376 }] run function facetemple:song/facetemple/chord/5qvmaavc15gaf
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 380 }] run function facetemple:song/facetemple/chord/73pxdsdzzozgh
+
+
+@function facetemple:song/facetemple/note/384_476
+                execute if entity @s[scores={ 5ok76phnas7sv = ..392 }] run function facetemple:song/facetemple/note/384_392
+                execute if entity @s[scores={ 5ok76phnas7sv = 396..404 }] run function facetemple:song/facetemple/note/396_404
+                execute if entity @s[scores={ 5ok76phnas7sv = 408..416 }] run function facetemple:song/facetemple/note/408_416
+                execute if entity @s[scores={ 5ok76phnas7sv = 420..428 }] run function facetemple:song/facetemple/note/420_428
+                execute if entity @s[scores={ 5ok76phnas7sv = 432..440 }] run function facetemple:song/facetemple/note/432_440
+                execute if entity @s[scores={ 5ok76phnas7sv = 444..452 }] run function facetemple:song/facetemple/note/444_452
+                execute if entity @s[scores={ 5ok76phnas7sv = 456..464 }] run function facetemple:song/facetemple/note/456_464
+                execute if entity @s[scores={ 5ok76phnas7sv = 468.. }] run function facetemple:song/facetemple/note/468_476
+
+@function facetemple:song/facetemple/chord/hjhn3ocqntwr
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.6299605249474366
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.6299605249474366
+
+@function facetemple:song/facetemple/note/384_392
+                    execute if entity @s[scores={ 5ok76phnas7sv = 384 }] run function facetemple:song/facetemple/chord/hjhn3ocqntwr
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 388 }] run function facetemple:song/facetemple/chord/5ho8zdz2x172k
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 392 }] run function facetemple:song/facetemple/chord/21ffihobrxosk
+
+
+@function facetemple:song/facetemple/chord/5ho8zdz2x172k
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.6299605249474366
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+
+@function facetemple:song/facetemple/note/396_404
+                    execute if entity @s[scores={ 5ok76phnas7sv = 396 }] run function facetemple:song/facetemple/chord/3w2xpwhzmxjyz
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 400 }] run function facetemple:song/facetemple/chord/86jk54zsoj3vg
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 404 }] run function facetemple:song/facetemple/chord/c4iirf4a3t6x
+
+
+@function facetemple:song/facetemple/note/408_416
+                    execute if entity @s[scores={ 5ok76phnas7sv = 408 }] run function facetemple:song/facetemple/chord/21ffihobrxosk
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 412 }] run function facetemple:song/facetemple/chord/3w2xpwhzmxjyz
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 416 }] run function facetemple:song/facetemple/chord/4cx3f7ywms4g2
+
+
+@function facetemple:song/facetemple/chord/4cx3f7ywms4g2
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.6299605249474366
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.6299605249474366
+
+@function facetemple:song/facetemple/chord/6jgd1bk115so8
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.6299605249474366
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+
+@function facetemple:song/facetemple/note/420_428
+                    execute if entity @s[scores={ 5ok76phnas7sv = 420 }] run function facetemple:song/facetemple/chord/6jgd1bk115so8
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 424 }] run function facetemple:song/facetemple/chord/3vdt5njim551n
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 428 }] run function facetemple:song/facetemple/chord/7to5gnvp91ny4
+
+
+@function facetemple:song/facetemple/note/432_440
+                    execute if entity @s[scores={ 5ok76phnas7sv = 432 }] run function facetemple:song/facetemple/chord/52jyv493kv85c
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 436 }] run function facetemple:song/facetemple/chord/4xxc2bjrka8re
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 440 }] run function facetemple:song/facetemple/chord/3vdt5njim551n
+
+
+@function facetemple:song/facetemple/note/444_452
+                    execute if entity @s[scores={ 5ok76phnas7sv = 444 }] run function facetemple:song/facetemple/chord/7to5gnvp91ny4
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 448 }] run function facetemple:song/facetemple/chord/7chzu7kdvt56w
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 452 }] run function facetemple:song/facetemple/chord/3t8ia5uqt9gdk
+
+
+@function facetemple:song/facetemple/chord/7chzu7kdvt56w
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.6299605249474366
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.6299605249474366
+
+@function facetemple:song/facetemple/chord/3t8ia5uqt9gdk
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.8408964152537145
+
+@function facetemple:song/facetemple/note/456_464
+                    execute if entity @s[scores={ 5ok76phnas7sv = 456 }] run function facetemple:song/facetemple/chord/7bej73dfi2iew
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 460 }] run function facetemple:song/facetemple/chord/6fjy22re9d18j
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 464 }] run function facetemple:song/facetemple/chord/42mnfvsxjdjzd
+
+
+@function facetemple:song/facetemple/note/468_476
+                    execute if entity @s[scores={ 5ok76phnas7sv = 468 }] run function facetemple:song/facetemple/chord/7u7zpcuca6gyp
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 472 }] run function facetemple:song/facetemple/chord/7bej73dfi2iew
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 476 }] run function facetemple:song/facetemple/chord/6fjy22re9d18j
+
+
+@function facetemple:song/facetemple/note/480_572
+                execute if entity @s[scores={ 5ok76phnas7sv = ..488 }] run function facetemple:song/facetemple/note/480_488
+                execute if entity @s[scores={ 5ok76phnas7sv = 492..500 }] run function facetemple:song/facetemple/note/492_500
+                execute if entity @s[scores={ 5ok76phnas7sv = 504..512 }] run function facetemple:song/facetemple/note/504_512
+                execute if entity @s[scores={ 5ok76phnas7sv = 516..524 }] run function facetemple:song/facetemple/note/516_524
+                execute if entity @s[scores={ 5ok76phnas7sv = 528..536 }] run function facetemple:song/facetemple/note/528_536
+                execute if entity @s[scores={ 5ok76phnas7sv = 540..548 }] run function facetemple:song/facetemple/note/540_548
+                execute if entity @s[scores={ 5ok76phnas7sv = 552..560 }] run function facetemple:song/facetemple/note/552_560
+                execute if entity @s[scores={ 5ok76phnas7sv = 564.. }] run function facetemple:song/facetemple/note/564_572
+
+@function facetemple:song/facetemple/chord/5v7pvwdnobr7g
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.6299605249474366
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.6299605249474366
+
+@function facetemple:song/facetemple/note/480_488
+                    execute if entity @s[scores={ 5ok76phnas7sv = 480 }] run function facetemple:song/facetemple/chord/5v7pvwdnobr7g
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 484 }] run function facetemple:song/facetemple/chord/7w9n3sfuij83t
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 488 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+
+@function facetemple:song/facetemple/chord/7w9n3sfuij83t
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.6299605249474366
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/note/492_500
+                    execute if entity @s[scores={ 5ok76phnas7sv = 492 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 496 }] run function facetemple:song/facetemple/chord/gym23w4dzf64
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 500 }] run function facetemple:song/facetemple/chord/6gpbkcqtkuwn7
+
+
+@function facetemple:song/facetemple/note/504_512
+                    execute if entity @s[scores={ 5ok76phnas7sv = 504 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 508 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 512 }] run function facetemple:song/facetemple/chord/5zhz34drrwmz
+
+
+@function facetemple:song/facetemple/chord/5zhz34drrwmz
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+
+@function facetemple:song/facetemple/chord/5u3h1d3wodgch
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5612310241546865
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/note/516_524
+                    execute if entity @s[scores={ 5ok76phnas7sv = 516 }] run function facetemple:song/facetemple/chord/5u3h1d3wodgch
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 520 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 524 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+
+@function facetemple:song/facetemple/note/528_536
+                    execute if entity @s[scores={ 5ok76phnas7sv = 528 }] run function facetemple:song/facetemple/chord/857vvt71rfb6a
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 532 }] run function facetemple:song/facetemple/chord/65gipc78k6qso
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 536 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+
+@function facetemple:song/facetemple/note/540_548
+                    execute if entity @s[scores={ 5ok76phnas7sv = 540 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 544 }] run function facetemple:song/facetemple/chord/5zhz34drrwmz
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 548 }] run function facetemple:song/facetemple/chord/33cug1e2746jn
+
+
+@function facetemple:song/facetemple/chord/33cug1e2746jn
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.8408964152537145
+
+@function facetemple:song/facetemple/note/552_560
+                    execute if entity @s[scores={ 5ok76phnas7sv = 552 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 556 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 560 }] run function facetemple:song/facetemple/chord/857vvt71rfb6a
+
+
+@function facetemple:song/facetemple/note/564_572
+                    execute if entity @s[scores={ 5ok76phnas7sv = 564 }] run function facetemple:song/facetemple/chord/65gipc78k6qso
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 568 }] run function facetemple:song/facetemple/chord/8qjndo713ajc6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 572 }] run function facetemple:song/facetemple/chord/7u98815gpfxjx
+
+
+@function facetemple:song/facetemple/note/576_668
+                execute if entity @s[scores={ 5ok76phnas7sv = ..584 }] run function facetemple:song/facetemple/note/576_584
+                execute if entity @s[scores={ 5ok76phnas7sv = 588..596 }] run function facetemple:song/facetemple/note/588_596
+                execute if entity @s[scores={ 5ok76phnas7sv = 600..608 }] run function facetemple:song/facetemple/note/600_608
+                execute if entity @s[scores={ 5ok76phnas7sv = 612..620 }] run function facetemple:song/facetemple/note/612_620
+                execute if entity @s[scores={ 5ok76phnas7sv = 624..632 }] run function facetemple:song/facetemple/note/624_632
+                execute if entity @s[scores={ 5ok76phnas7sv = 636..644 }] run function facetemple:song/facetemple/note/636_644
+                execute if entity @s[scores={ 5ok76phnas7sv = 648..656 }] run function facetemple:song/facetemple/note/648_656
+                execute if entity @s[scores={ 5ok76phnas7sv = 660.. }] run function facetemple:song/facetemple/note/660_668
+
+@function facetemple:song/facetemple/chord/6xugxq2eegsqp
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5946035575013605
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.3 0.5946035575013605
+
+@function facetemple:song/facetemple/note/576_584
+                    execute if entity @s[scores={ 5ok76phnas7sv = 576 }] run function facetemple:song/facetemple/chord/6xugxq2eegsqp
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 580 }] run function facetemple:song/facetemple/chord/2i2fb8gz7u3nx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 584 }] run function facetemple:song/facetemple/chord/3vdt5njim551n
+
+
+@function facetemple:song/facetemple/note/588_596
+                    execute if entity @s[scores={ 5ok76phnas7sv = 588 }] run function facetemple:song/facetemple/chord/7to5gnvp91ny4
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 592 }] run function facetemple:song/facetemple/chord/7daurif91oagm
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 596 }] run function facetemple:song/facetemple/chord/5mbwnoxdsid1t
+
+
+@function facetemple:song/facetemple/chord/7daurif91oagm
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0
+
+@function facetemple:song/facetemple/chord/5mbwnoxdsid1t
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/bc8qt5of3w13
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7071067811865476
+
+@function facetemple:song/facetemple/note/600_608
+                    execute if entity @s[scores={ 5ok76phnas7sv = 600 }] run function facetemple:song/facetemple/chord/bc8qt5of3w13
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 604 }] run function facetemple:song/facetemple/chord/6dwqh36iu9sn7
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 608 }] run function facetemple:song/facetemple/chord/4zos483m7bxya
+
+
+@function facetemple:song/facetemple/chord/6dwqh36iu9sn7
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/4zos483m7bxya
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.5946035575013605
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.5946035575013605
+
+@function facetemple:song/facetemple/chord/38e3599x41hxv
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.5946035575013605
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.5 0.7937005259840997
+
+@function facetemple:song/facetemple/note/612_620
+                    execute if entity @s[scores={ 5ok76phnas7sv = 612 }] run function facetemple:song/facetemple/chord/38e3599x41hxv
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 616 }] run function facetemple:song/facetemple/chord/21ffihobrxosk
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 620 }] run function facetemple:song/facetemple/chord/3w2xpwhzmxjyz
+
+
+@function facetemple:song/facetemple/chord/ubvhnyjo14zb
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 1.0
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 1.0
+
+@function facetemple:song/facetemple/note/624_632
+                    execute if entity @s[scores={ 5ok76phnas7sv = 624 }] run function facetemple:song/facetemple/chord/ubvhnyjo14zb
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 628 }] run function facetemple:song/facetemple/chord/4gii5ar5nz9r4
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 632 }] run function facetemple:song/facetemple/chord/5qvmaavc15gaf
+
+
+@function facetemple:song/facetemple/chord/4gii5ar5nz9r4
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 1.0
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.6 0.7937005259840997
+
+@function facetemple:song/facetemple/note/636_644
+                    execute if entity @s[scores={ 5ok76phnas7sv = 636 }] run function facetemple:song/facetemple/chord/73pxdsdzzozgh
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 640 }] run function facetemple:song/facetemple/chord/7ewmokgp4qhva
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 644 }] run function facetemple:song/facetemple/chord/4syigbq1kfib2
+
+
+@function facetemple:song/facetemple/chord/7ewmokgp4qhva
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.5297315471796477
+
+@function facetemple:song/facetemple/chord/4syigbq1kfib2
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.7 0.7937005259840997
+
+@function facetemple:song/facetemple/note/648_656
+                    execute if entity @s[scores={ 5ok76phnas7sv = 648 }] run function facetemple:song/facetemple/chord/3ej9gkij71yp4
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 652 }] run function facetemple:song/facetemple/chord/5xixcotfyssri
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 656 }] run function facetemple:song/facetemple/chord/wkko2iur8i41
+
+
+@function facetemple:song/facetemple/chord/wkko2iur8i41
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 1.0594630943592953
+
+@function facetemple:song/facetemple/chord/8jk2ko6y4n3fp
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+
+@function facetemple:song/facetemple/note/660_668
+                    execute if entity @s[scores={ 5ok76phnas7sv = 660 }] run function facetemple:song/facetemple/chord/8jk2ko6y4n3fp
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 664 }] run function facetemple:song/facetemple/chord/b7dgnpo7m7u7
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 668 }] run function facetemple:song/facetemple/chord/62d9gishpvbu5
+
+
+@function facetemple:song/facetemple/chord/b7dgnpo7m7u7
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7071067811865476
+
+@function facetemple:song/facetemple/chord/62d9gishpvbu5
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.8 0.7937005259840997
+
+@function facetemple:song/facetemple/note/672_764
+                execute if entity @s[scores={ 5ok76phnas7sv = ..680 }] run function facetemple:song/facetemple/note/672_680
+                execute if entity @s[scores={ 5ok76phnas7sv = 684..692 }] run function facetemple:song/facetemple/note/684_692
+                execute if entity @s[scores={ 5ok76phnas7sv = 696..704 }] run function facetemple:song/facetemple/note/696_704
+                execute if entity @s[scores={ 5ok76phnas7sv = 708..716 }] run function facetemple:song/facetemple/note/708_716
+                execute if entity @s[scores={ 5ok76phnas7sv = 720..728 }] run function facetemple:song/facetemple/note/720_728
+                execute if entity @s[scores={ 5ok76phnas7sv = 732..740 }] run function facetemple:song/facetemple/note/732_740
+                execute if entity @s[scores={ 5ok76phnas7sv = 744..752 }] run function facetemple:song/facetemple/note/744_752
+                execute if entity @s[scores={ 5ok76phnas7sv = 756.. }] run function facetemple:song/facetemple/note/756_764
+
+@function facetemple:song/facetemple/chord/2ei3g178nxwcp
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.5297315471796477
+
+@function facetemple:song/facetemple/note/672_680
+                    execute if entity @s[scores={ 5ok76phnas7sv = 672 }] run function facetemple:song/facetemple/chord/2ei3g178nxwcp
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 676 }] run function facetemple:song/facetemple/chord/6sdqb9ujjqibx
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 680 }] run function facetemple:song/facetemple/chord/3ogmb516uaw2z
+
+
+@function facetemple:song/facetemple/chord/6sdqb9ujjqibx
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.5297315471796477
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/3ogmb516uaw2z
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7071067811865476
+
+@function facetemple:song/facetemple/chord/3t86ev9i6thu6
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.9 0.7937005259840997
+
+@function facetemple:song/facetemple/note/684_692
+                    execute if entity @s[scores={ 5ok76phnas7sv = 684 }] run function facetemple:song/facetemple/chord/3t86ev9i6thu6
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 688 }] run function facetemple:song/facetemple/chord/5izhrwu98dbhc
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 692 }] run function facetemple:song/facetemple/chord/5v7vzbfqpc2do
+
+
+@function facetemple:song/facetemple/chord/5izhrwu98dbhc
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 1.0594630943592953
+
+@function facetemple:song/facetemple/chord/5v7vzbfqpc2do
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/7pzmaqb7ay8z2
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7071067811865476
+
+@function facetemple:song/facetemple/note/696_704
+                    execute if entity @s[scores={ 5ok76phnas7sv = 696 }] run function facetemple:song/facetemple/chord/7pzmaqb7ay8z2
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 700 }] run function facetemple:song/facetemple/chord/39djmug5rrdkc
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 704 }] run function facetemple:song/facetemple/chord/864p6z3bdysuq
+
+
+@function facetemple:song/facetemple/chord/39djmug5rrdkc
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+                            playsound block.note_block.bit record @s ^ ^ ^ 1.0 0.7937005259840997
+
+@function facetemple:song/facetemple/chord/864p6z3bdysuq
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.6674199270850172
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.6674199270850172
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.6674199270850172
+
+@function facetemple:song/facetemple/note/708_716
+                    execute if entity @s[scores={ 5ok76phnas7sv = 708 }] run function facetemple:song/facetemple/chord/6dwqh36iu9sn7
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 712 }] run function facetemple:song/facetemple/chord/8c1cznptnrg6f
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 716 }] run function facetemple:song/facetemple/chord/7i4oafj2boyni
+
+
+@function facetemple:song/facetemple/chord/8c1cznptnrg6f
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.9438743126816934
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 0.9438743126816934
+
+@function facetemple:song/facetemple/chord/7i4oafj2boyni
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.122462048309373
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.122462048309373
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.122462048309373
+
+@function facetemple:song/facetemple/chord/559d4ndr8wid8
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.3348398541700344
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.3348398541700344
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.3348398541700344
+
+@function facetemple:song/facetemple/note/720_728
+                    execute if entity @s[scores={ 5ok76phnas7sv = 720 }] run function facetemple:song/facetemple/chord/559d4ndr8wid8
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 724 }] run function facetemple:song/facetemple/chord/6ak2iatsy7zi9
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 728 }] run function facetemple:song/facetemple/chord/jdkvza7si3hb
+
+
+@function facetemple:song/facetemple/chord/6ak2iatsy7zi9
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.5874010519681996
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.5874010519681996
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.5874010519681996
+
+@function facetemple:song/facetemple/chord/jdkvza7si3hb
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.887748625363387
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.887748625363387
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.887748625363387
+
+@function facetemple:song/facetemple/chord/5ma2aq3ej17a
+                            playsound block.note_block.bit_1 record @s ^ ^ ^ 0.4 0.5612310241546865
+                            playsound block.note_block.bit_1 record @s ^ ^ ^ 0.4 0.5612310241546865
+                            playsound block.note_block.bit_1 record @s ^ ^ ^ 0.4 0.5612310241546865
+
+@function facetemple:song/facetemple/note/732_740
+                    execute if entity @s[scores={ 5ok76phnas7sv = 732 }] run function facetemple:song/facetemple/chord/5ma2aq3ej17a
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 736 }] run function facetemple:song/facetemple/chord/6hvk5jm8dzvid
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 740 }] run function facetemple:song/facetemple/chord/jdkvza7si3hb
+
+
+@function facetemple:song/facetemple/chord/6hvk5jm8dzvid
+                            playsound block.note_block.bit_1 record @s ^ ^ ^ 0.4 0.5297315471796477
+                            playsound block.note_block.bit_1 record @s ^ ^ ^ 0.4 0.5297315471796477
+                            playsound block.note_block.bit_1 record @s ^ ^ ^ 0.4 0.5297315471796477
+
+@function facetemple:song/facetemple/note/744_752
+                    execute if entity @s[scores={ 5ok76phnas7sv = 744 }] run function facetemple:song/facetemple/chord/6ak2iatsy7zi9
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 748 }] run function facetemple:song/facetemple/chord/559d4ndr8wid8
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 752 }] run function facetemple:song/facetemple/chord/7wp8ckh5ezqt6
+
+
+@function facetemple:song/facetemple/chord/7wp8ckh5ezqt6
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0594630943592953
+                            playsound block.note_block.bit record @s ^ ^ ^ 0.4 1.0594630943592953
+
+@function facetemple:song/facetemple/note/756_764
+                    execute if entity @s[scores={ 5ok76phnas7sv = 756 }] run function facetemple:song/facetemple/chord/8c1cznptnrg6f
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 760 }] run function facetemple:song/facetemple/chord/6dwqh36iu9sn7
+
+                    execute if entity @s[scores={ 5ok76phnas7sv = 764 }] run function facetemple:song/facetemple/chord/864p6z3bdysuq
+
+
+@function facetemple:song/facetemple/note
+                execute if entity @s[scores={ 5ok76phnas7sv = 0..92 }] run function facetemple:song/facetemple/note/0_92
+                execute if entity @s[scores={ 5ok76phnas7sv = 96..188 }] run function facetemple:song/facetemple/note/96_188
+                execute if entity @s[scores={ 5ok76phnas7sv = 192..284 }] run function facetemple:song/facetemple/note/192_284
+                execute if entity @s[scores={ 5ok76phnas7sv = 288..380 }] run function facetemple:song/facetemple/note/288_380
+                execute if entity @s[scores={ 5ok76phnas7sv = 384..476 }] run function facetemple:song/facetemple/note/384_476
+                execute if entity @s[scores={ 5ok76phnas7sv = 480..572 }] run function facetemple:song/facetemple/note/480_572
+                execute if entity @s[scores={ 5ok76phnas7sv = 576..668 }] run function facetemple:song/facetemple/note/576_668
+                execute if entity @s[scores={ 5ok76phnas7sv = 672..764 }] run function facetemple:song/facetemple/note/672_764
+    scoreboard players add @s 5ok76phnas7sv 1
+
+@function facetemple:scoreboard
+scoreboard objectives add 5ok76phnas7sv dummy "facetemple.song.facetemple.tick"
+
+@function_tag minecraft:tick
+{
+  "values": [
+    "facetemple:song/facetemple/tick"
+  ]
+}
+
+@function_tag minecraft:load
+{
+  "values": [
+    "facetemple:scoreboard"
+  ]
+}
