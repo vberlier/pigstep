@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2021-04-27)
+### Fix
+* Update README ([`e37f95b`](https://github.com/vberlier/pigstep/commit/e37f95b54daf868f3b2f6fee104e54e1087cd80c))
+
 ## v0.2.0 (2021-04-27)
 ### Feature
 * Automatically include extra notes ([`e4b7e04`](https://github.com/vberlier/pigstep/commit/e4b7e041b216edce9d05faaa42b36ec9cbe49331))
