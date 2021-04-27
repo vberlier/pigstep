@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2021-04-27)
+### Feature
+* Automatically include extra notes ([`e4b7e04`](https://github.com/vberlier/pigstep/commit/e4b7e041b216edce9d05faaa42b36ec9cbe49331))
+
 ## v0.1.0 (2021-04-23)
 ### Feature
 * Still need to tweak the speed but it works ([`b31a6a4`](https://github.com/vberlier/pigstep/commit/b31a6a4ae04d4cfa68dd864456cdac8a0e332ba6))

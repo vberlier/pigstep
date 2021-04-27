@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pigstep"
-version = "0.1.0"
+version = "0.2.0"
 description = "A beet plugin for importing songs into Minecraft"
 authors = ["Valentin Berlier <berlier.v@gmail.com>"]
 license = "MIT"
