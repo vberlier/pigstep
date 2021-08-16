@@ -25,7 +25,7 @@ pynbs = "^0.4.2"
 beet = ">=0.22.0"
 
 [tool.poetry.dev-dependencies]
-black = "^21.4b0"
+black = "^21.7b0"
 isort = "^5.8.0"
 rope = "^0.19.0"
 python-semantic-release = "^7.15.3"
